@@ -20,20 +20,26 @@ public class Shuzu2 {
 //        System.out.println("总金额" + "\t\t" + sum);
 
 
-//        int[] score = {100, 120, 80, 60, 70};
-//        int max = score[0];
-//        int min = score[0];
-//        for (int i = 0; i < score.length; i++) {
-//            if (max < score[i]) {
-//                max = score[i];
-//            }
-//        }
-//        for (int i = 0; i < score.length; i++) {
-//            if (min > score[i]) {
-//                min = score[i];
-//            }
-//        }
-//        System.out.println(max + "\t" + min);
+        int[] score;
+        score = new int[5];
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("输入五个数");
+        for (int j = 0; j < score.length; j++) {
+            score[j] = scanner.nextInt();
+        }
+        int max = score[0];
+        int min = score[0];
+        for (int i = 0; i < score.length; i++) {
+            if (max < score[i]) {
+                max = score[i];
+            }
+        }
+        for (int i = 0; i < score.length; i++) {
+            if (min > score[i]) {
+                min = score[i];
+            }
+        }
+        System.out.println("最大数" + max + "\t" + "最小数" + min);
 
 
         /**
@@ -45,26 +51,26 @@ public class Shuzu2 {
          * 该位置元素向后移动一位
          * 插入新成绩
          * @author m1991
-         *
          */
-        int[] scores = {90, 85, 82, 63, 60, 0};
-        //定义插入的成绩
-        int score = 88;
-        //定义插入位置
-        int index = 0;
-        for (int i = scores.length - 2; i >= 0; i--) {
-            if (score > scores[i]) {
-                scores[i + 1] = scores[i];
-            } else {
-                //将当前的位置赋值给index
-                index = i;
-                break;
-            }
-        }
-        //在index+1的位置把score插入
-        scores[index + 1] = score;
-        for (int i = 0; i < scores.length; i++) {
-            System.out.println(scores[i] + "\t");
-        }
+//        int[] scores = {90, 85, 82, 63, 60, 0};
+//        //定义插入的成绩
+//        int score = 88;
+//        //定义插入位置
+//        int index = 0;
+        //下面寻找可以插入的光标位置，从后面向前比较
+//        for (int i = scores.length - 2; i >= 0; i--) {
+//            if (score > scores[i]) {    //如果插入的数大于当前比较的数
+//                scores[i + 1] = scores[i];   //把当前的这个数向后放
+//            } else {
+//                //将当前的位置赋值给index
+//                index = i;
+//                break;
+//            }
+//        }
+//        //在index+1的位置把score插入
+//        scores[index + 1] = score;
+//        for (int i = 0; i < scores.length; i++) {
+//            System.out.println(scores[i] + "\t");
+//        }
     }
 }
