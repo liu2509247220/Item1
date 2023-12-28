@@ -7,9 +7,6 @@ public class Sc {
         person.name = "灰太狼";
         person.gender = "男";
 
-        person.food = "米饭";
-        person.print();
-        person.eat();
 
         More more = new More();
         more.bool = "足球";
