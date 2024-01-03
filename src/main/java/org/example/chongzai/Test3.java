@@ -13,8 +13,8 @@ public class Test3 {
 
         Score[] students = {s1, s2};
 
-        Score score = new Score();
-        score.addScore(students);
+//        Score score = new Score();
+//        score.addScore(students);
         for(Score s:students){
             System.out.println(s.name+","+s.score);
         }

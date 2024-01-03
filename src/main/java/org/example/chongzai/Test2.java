@@ -5,7 +5,7 @@ public class Test2 {
 
         Student student = new Student();
         boolean flag = student.searchName(2,3,"张三");
-
+        //用flag判断true、false
         if (flag){
             System.out.println("查找成功");
         }else {

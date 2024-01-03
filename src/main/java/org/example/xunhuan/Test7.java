@@ -34,8 +34,6 @@ public class Test7 {
 
         Scanner input = new Scanner(System.in);
         do {
-
-
             System.out.println("输入一个1-7之间的数,输入0退出");
             int a = input.nextInt();
             if (a == 0) {
