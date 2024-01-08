@@ -13,12 +13,12 @@ public class Test {
         printer.setInkBox(new BlackInkBox());
         printer.print();
 
-        printer = new Printer();
-        B5Paper b5Paper = new B5Paper();
-//        printer.setPaper(b5Paper);
-        ColorInkBox colorInkBox = new ColorInkBox();
-        printer.setInkBox(colorInkBox);
-        printer.print();
+//        printer = new Printer();
+//        B5Paper b5Paper = new B5Paper();
+////        printer.setPaper(b5Paper);
+//        ColorInkBox colorInkBox = new ColorInkBox();
+//        printer.setInkBox(colorInkBox);
+//        printer.print();
 
 
     }

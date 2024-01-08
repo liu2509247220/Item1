@@ -1,4 +1,4 @@
-package org.example.day1y5test;
+package org.example.day1y5test.xuesheng;
 
 public class Student {
     private String name;
