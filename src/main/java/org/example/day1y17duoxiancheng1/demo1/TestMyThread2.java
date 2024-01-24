@@ -9,7 +9,7 @@ public class TestMyThread2 {
 
         MyThread2 t0 = new MyThread2();
 
-        t0.setName("线程A");
+        t0.setName("线程A");// 给t0name
         t0.start();
 
 

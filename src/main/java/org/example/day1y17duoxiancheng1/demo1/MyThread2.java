@@ -10,7 +10,7 @@ public class MyThread2 extends Thread {
 
         for (int i = 1; i < 6; i++) {
             try {
-                Thread.sleep(500);
+                Thread.sleep(1000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }

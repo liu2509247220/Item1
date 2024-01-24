@@ -15,6 +15,7 @@ public class TestMyThread {
         m0.setPriority(1);
         m1.setPriority(10);
         //查看优先级
+        System.err.println(m0.getPriority());
         System.err.println(m1.getPriority());
 
 //开启线程

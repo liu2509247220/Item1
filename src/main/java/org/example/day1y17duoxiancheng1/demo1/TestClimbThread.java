@@ -6,7 +6,7 @@ package org.example.day1y17duoxiancheng1.demo1;
  */
 public class TestClimbThread {
     public static void main(String[] args) {
-        ClimbThread c1 = new ClimbThread("老年人",600,15);
+        ClimbThread c1 = new ClimbThread("Old人",600,15);
         ClimbThread c2 = new ClimbThread("年轻人",200,15);
 
         //开启线程
